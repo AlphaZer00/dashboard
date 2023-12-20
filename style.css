@@ -128,6 +128,42 @@ ul {
 .project-container {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
+  background-color: #e3eaf1;
+  padding: 2rem 1rem;
+}
+
+.project-container>span {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: .5rem;
+}
+
+.card {
+  border-left: 10px solid orange;
+  border-radius: 10px;
+  padding: .5rem;
+  background-color: white;
+  padding-top: 1rem;
+}
+
+.card>h1 {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.card>p {
+  color: #434343;
+}
+
+.icon-area {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 /* Sidebar Section */
